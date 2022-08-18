@@ -10,10 +10,13 @@ public class LeapYearPrinter {
          switch(t){
              case(1):
                  System.out.println("leap");
+                 break;
              case(0):
                  System.out.println("not leap");
+                 break;
              default:
                  System.out.println("not leap");
+                 break;
          }
     }
 }
